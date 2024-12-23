@@ -1,0 +1,63 @@
+.navbar {
+  /* border-bottom: 5px solid rgb(0, 94, 255); */
+  box-shadow: 0 2px 7px rgb(0, 94, 255);
+}
+.nav-link:hover {
+  color: aliceblue;
+  transition: 200ms;
+}
+
+header {
+  min-height: 100vh;
+  background-image: linear-gradient(rgb(0, 29, 35, 0.8), rgb(0, 29, 35, 0.8)),url(../images/cover45.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+footer {
+  background-color: rgb(0, 94, 255);
+}
+
+.header-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#about h5 {
+  letter-spacing: 5px;
+}
+#about img {
+  min-height: 100%;
+}
+.exper:hover {
+  scale: 1.1;
+  transition: all 400ms;
+}
+.know:hover {
+  color: aliceblue;
+}
+.image_prods {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.cardproducts:hover {
+  scale: 1.1;
+  transition: all 300ms;
+  border: 2px solid dodgerblue;
+  border-radius: 5px;
+}
+.cardproducts2:hover {
+  scale: 1.1;
+  transition: all 300ms;
+  border: 2px solid rgba(228, 22, 22, 0.879);
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+}

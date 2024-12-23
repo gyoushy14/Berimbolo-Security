@@ -1,0 +1,41 @@
+Carts 
+Products 
+Dispatch متنساش يا عبد 
+
+ const servicesData = [
+    {
+      id: 1,
+      imgSrc: "images/camer.jpeg",
+      title: "CCTV Installation",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      btn: "Add To Cart",
+      price: 77,
+    },
+    {
+      id: 2,
+      imgSrc: "images/960x0.webp",
+      title: "System Configuration",
+      description:
+        "Perspiciatis fuga, suscipit dolore voluptate dicta provident!",
+      btn: "Add To Cart",
+      price: 40,
+    },
+    {
+      id: 3,
+      imgSrc: "/images/about.jpg",
+      title: "Maintenance Services",
+      description:
+        "Perspiciatis fuga, suscipit dolore voluptate dicta provident!",
+      btn: "Add To Cart",
+      price: 60,
+    },
+    {
+      id: 4,
+      imgSrc: "/images/contact.jpg",
+      title: "Security Upgrades",
+      description:
+        "Perspiciatis fuga, suscipit dolore voluptate dicta provident!",
+      btn: "Add To Cart",
+      price: 23,
+    },
+  ];
